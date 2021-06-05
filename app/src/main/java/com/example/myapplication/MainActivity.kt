@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         greenTile.setOnClickListener(this)
         greenTile.tag = 3
         play_stop_button.setOnClickListener(this)
+        disableTiles()
     }
 
     override fun onClick(v: View?) {
